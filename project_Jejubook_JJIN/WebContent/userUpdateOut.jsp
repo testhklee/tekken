@@ -40,7 +40,7 @@
 	                </div>
 	                <div class="menu">
 	                    <ul>
-	                        <li><a href="Controller.go?command=">내 글 보기3</a></li>
+	                        <li><a href="Controller.go?command=">내 글 보기</a></li>
 	                        <li><a href="Controller.go?command=">QnA</a></li>
 	                        <li><a href="Controller.go?command=">글쓰기</a></li>
 	                        <li><a href="Controller.go?command=userUpdateOut&id=${dto.emailorphone }">내 정보</a></li>
