@@ -1,0 +1,227 @@
+header {
+	width: 100%;
+	height: 83px;
+	background: linear-gradient(#fc9015, #f18101 50%);
+}
+
+header #header_inner {
+	width: 980px;
+	height: 70px;
+	margin: 0 auto;
+	padding-top: 13px;
+}
+
+header #header_inner div {
+	float: left;
+}
+
+header #header_inner div.login {
+	float: right;
+}
+
+header #header_inner .main_logo {
+	margin-top: 7px;
+}
+
+header #header_inner .login tr:first-child td {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+header #header_inner .login tr td:first-child {
+	padding-bottom: 6px;
+}
+
+header #header_inner .login tr td:nth-child(2) {
+	padding-left: 14px;
+}
+
+header #header_inner .login tr td:last-child {
+	padding-left: 14px;
+}
+
+header #header_inner .login tr:nth-child(2) td input {
+	border: 2px solid #fcb563;
+	width: 146px;
+	height: 17px;
+}
+
+header #header_inner .login tr:nth-child(2) td:last-child input {
+	border: 2px solid #dddada;
+	width: 50px;
+	height: 24px;
+	font-size: 11px;
+	font-weight: bold;
+	cursor: pointer;
+	background: #de7c0c;
+	border-radius: 4px;
+}
+
+header #header_inner .login tr:nth-child(2) td:last-child input:hover {
+	background: #fc921a;
+}
+
+section {
+	width: 100%;
+	height: 588px;
+	background: linear-gradient(white, #D3D8E8);
+}
+
+section #box_inner {
+	width: 980px;
+	height: 588px;
+	margin: 0 auto;
+}
+
+section #box_inner > div {
+	float: left;
+}
+
+section #box_inner .content_01 {
+	padding-top: 40px;
+}
+
+section #box_inner .content_01 p {
+	line-height: 135%;
+	font-size: 20px;
+	font-weight: bold;
+	color: #0e385f;
+}
+
+section #box_inner .content_01 img {
+	margin-left: 138px;
+	padding-top: 35px;
+}
+
+section #box_inner .content_02 {
+	float: right;
+	width: 400px;
+}
+
+section #box_inner .content_02 .join_txt {
+	padding: 20px 0;
+}
+
+section #box_inner .content_02 .join_txt p:first-child {
+	font-size: 36px;
+	color: #333;
+	font-weight: bold;
+}
+
+section #box_inner .content_02 .join_txt p:last-child {
+	font-size: 19px;
+	color: #1d2129;
+	line-height: 48px;
+}
+
+section #box_inner .content_02 .user_form .st {
+	width: 398px;
+	margin-bottom: 10px;
+}
+
+section #box_inner .content_02 .user_form .st:nth-child(3) {
+	margin-bottom: 20px;
+}
+
+section #box_inner .content_02 .user_form .st .placeholder {
+	position: absolute;
+	z-index: 99;
+	font-size: 18px;
+	padding: 8px 10px;
+	color: #999999;
+}
+
+section #box_inner .content_02 .user_form .st .input_form input {
+	position: relative;
+	z-index: 98;
+	width: 374px;
+	height: 19px;
+	padding: 8px 10px;
+	border-radius: 5px;
+	font-size: 18px;
+	border: 2px solid #bdc7d8;
+}
+
+section #box_inner .content_02 .user_form .st .new_name .placeholder {
+	position: absolute;
+	z-index: 99;
+	font-size: 18px;
+	padding: 8px 10px;
+	color: #999999;
+}
+
+section #box_inner .content_02 .user_form .st .new_name .input_form input {
+	position: relative;
+	z-index: 98;
+	width: 170px;
+	height: 19px;
+	padding: 8px 10px;
+	font-size: 18px;
+	border-radius: 5px;
+	border: 2px solid #bdc7d8;
+}
+
+section #box_inner .content_02 .user_form .st .new_name:first-child {
+	float: left;
+}
+
+section #box_inner .content_02 .user_form .st .new_name:last-child {
+	float: right;
+}
+
+section #box_inner .content_02 .user_form .my_birth h1 {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+section #box_inner .content_02 .user_form .my_birth .user_sel {
+	margin-bottom: 15px;
+}
+
+section #box_inner .content_02 .user_form .my_birth .user_sel div {
+	float: left;
+}
+
+section #box_inner .content_02 .user_form .my_birth .user_sel div select {
+	padding: 5px;
+}
+
+section #box_inner .content_02 .user_form .gender span {
+	font-size: 18px;
+}
+
+section #box_inner .content_02 .user_form .join_submit {
+	margin: 15px 0;
+}
+
+section #box_inner .content_02 .user_form .join_submit button {
+	font-size: 19px;
+	text-shadow: 0 1px 2px rgba(221, 218, 218, 0.7);
+	width: 194px;
+	height: 39px;
+	box-shadow: inset 0 1px 1px #ffd5a5;
+	background: linear-gradient(#fdae54, #f88f16);
+	line-height: 100%;
+	cursor: pointer;
+	border-radius: 7px;
+	font-weight: bold;
+	padding: 7px 20px;
+}
+
+section #box_inner .content_02 .user_form .join_submit button:hover {
+	background: linear-gradient(#ffce96, #f69f3c);
+}
+
+footer {
+	width: 980px;
+	margin: 0 auto;
+	padding-top: 25px;
+}
+
+footer address div {
+	font-size: 12px;
+	color: #737373;
+}
+
+
+

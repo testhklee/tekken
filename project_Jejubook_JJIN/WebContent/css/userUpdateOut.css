@@ -1,0 +1,133 @@
+#chk_out {
+	width: 100%;
+	height: 100%;
+	display: block;	
+	background: #00000042;
+	position: absolute;
+	z-index: 99;
+}
+
+#chk_out .chk_msg {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+#user {
+	background: #fff6eb;
+}
+
+#user .inner {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+#user .inner > div {
+	float: left;
+}
+
+#user .inner .user_menu {
+	width: 150px;
+	padding-top: 15px;
+}
+
+#user .inner .user_menu .my_info {
+	margin: 0 0 20px 10px;
+}
+
+#user .inner .user_menu .menu ul li {
+	margin-bottom: 13px;
+}
+
+#user .inner .user_menu .menu ul li a {
+	color: black;
+}
+
+#user .inner .user_menu .menu ul li:last-child {
+	margin-bottom: 0px;
+}
+
+#user .inner .user_menu .menu {
+	text-align: center;
+}
+
+
+
+
+
+#user .inner .user_contents {
+	width: 874px;
+	padding-top: 15px;
+}
+
+#user .inner .user_contents .user_tab_menu {
+	height: 50px;
+	padding: 0 13px;
+	background: #e6e6e6;
+	border-radius: 6px;
+}
+
+#user .inner .user_contents .user_tab_menu ul {
+	line-height: 50px;
+}
+
+#user .inner .user_contents .user_tab_menu ul li {
+	float: left;
+	margin-right: 32px;
+}
+
+#user .inner .user_contents .user_tab_menu ul li a {
+	color: black;
+}
+
+#user .inner .user_contents .user_tab_menu ul li:last-child {
+	float: right;
+	margin-right: 0px;
+}
+
+#user .inner .user_contents #updateOut {
+	margin-top: 15px;
+    background: #e6e6e6;
+    border-radius: 6px;
+    padding: 55px 0;
+}
+
+#user .inner .user_contents #updateOut .form {
+	background: #f3e3d1;
+    margin: 0 32px;
+    padding: 70px;
+}
+
+#user .inner .user_contents #updateOut .form table {
+	width: 100%;
+    text-align: center;
+}
+
+#user .inner .user_contents #updateOut .form table tr th {
+	padding-bottom: 13px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#user .inner .user_contents #updateOut .form table tr td {
+	padding-bottom: 36px;
+	font-size: 14px;
+	color: #9e621d;
+}
+
+#user .inner .user_contents #updateOut .form .button {
+	
+}
+
+#user .inner .user_contents #updateOut .form .button > div {
+	width: 50%;
+	float: left;
+}
+
+

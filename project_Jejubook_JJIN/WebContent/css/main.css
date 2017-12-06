@@ -1,0 +1,101 @@
+#user {
+	background: #fff6eb;
+}
+
+#user .inner {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+#user .inner > div {
+	float: left;
+}
+
+#user .inner .user_menu {
+	width: 150px;
+	padding-top: 15px;
+}
+
+#user .inner .user_menu .my_info {
+	margin: 0 0 20px 10px;
+}
+
+#user .inner .user_menu .menu ul li {
+	margin-bottom: 13px;
+}
+
+#user .inner .user_menu .menu ul li a {
+	color: black;
+}
+
+#user .inner .user_menu .menu ul li:last-child {
+	margin-bottom: 0px;
+}
+
+#user .inner .user_menu .menu {
+	text-align: center;
+}
+
+
+
+
+
+#user .inner .user_contents {
+	width: 874px;
+	padding-top: 15px;
+}
+
+#user .inner .user_contents .user_tab_menu {
+	height: 50px;
+	padding: 0 13px;
+	background: #e6e6e6;
+	border-radius: 6px;
+}
+
+#user .inner .user_contents .user_tab_menu ul {
+	line-height: 50px;
+}
+
+#user .inner .user_contents .user_tab_menu ul li {
+	float: left;
+	margin-right: 32px;
+}
+
+#user .inner .user_contents .user_tab_menu ul li a {
+	color: black;
+}
+
+#user .inner .user_contents .user_tab_menu ul li:last-child {
+	float: right;
+	margin-right: 0px;
+}
+
+
+
+
+
+#user .inner .user_contents .user_view {
+	padding: 15px 15px 0 15px;
+}
+
+#user .inner .user_contents .user_view > div {
+	float: left;
+}
+
+#user .inner .user_contents .user_view .content {
+	width: 500px;
+}
+
+#user .inner .user_contents .user_view .user_reple {
+	width: 344px;
+	padding: 13px;
+	box-sizing: border-box;
+}
+
+#user .inner .user_contents .user_view .more_view {
+	float: none;
+}
+
+#user .inner .user_contents .user_view .more_view_after {
+	float: none;
+}

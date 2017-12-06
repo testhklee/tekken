@@ -1,0 +1,116 @@
+
+#admin_board {
+	width: 100%;
+	height: 850px;
+	background: linear-gradient(white, #D3D8E8);
+}
+
+#admin_board .admin_board_inner {
+	width: 1240px;
+	margin: 0 auto;
+	padding-top: 55px;
+	border-bottom: 2px solid;
+}
+
+#admin_board .admin_board_inner > h1 {
+	font-size: 36px;
+	font-weight: bold;
+	margin-bottom: 25px;
+	border-bottom: 2px solid black;
+    padding-bottom: 27px;
+}
+
+#admin_board .admin_board_inner nav {
+	width: 275px;
+	height: 650px;
+	text-align: center;
+	float: left;
+}
+
+#admin_board .admin_board_inner nav ul {
+	padding-top: 35px;
+}
+
+#admin_board .admin_board_inner nav ul li {
+	font-size: 21px;
+	margin-bottom: 48px;
+	cursor: pointer;
+}
+
+#admin_board .admin_board_inner nav ul li:hover {
+	text-decoration: underline;
+}
+
+#admin_board .admin_board_inner .board_tab {
+	width: 965px;
+	height: 650px;
+	float: left;
+}
+
+#admin_board .admin_board_inner .board_tab h1 {
+	font-size: 28px;	
+	padding-top: 30px;
+	margin: 0 0 25px 15px;
+}
+
+#admin_board .admin_board_inner .board_tab > table {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#admin_board .admin_board_inner .board_tab table thead {
+	background: #e2e2e2;
+}
+
+#admin_board .admin_board_inner .board_tab table thead tr {
+	height: 42px;
+    line-height: 42px;
+}
+
+#admin_board .admin_board_inner .board_tab table thead tr th {
+	font-size: 18px;
+	border-top: 2px solid #231816;
+	border-bottom: 2px solid #231816;
+}
+
+#admin_board .admin_board_inner .board_tab table tbody tr {
+	height: 33px;
+    line-height: 33px;
+	border-bottom: 1px solid gray;
+}
+
+#admin_board .admin_board_inner .board_tab table tbody tr:last-child {
+	border-bottom: 0px;
+}
+
+#admin_board .admin_board_inner .board_tab table tbody tr td {
+	text-align: center;
+	font-size: 14px;
+}
+
+#admin_board .admin_board_inner .board_tab table tbody tr .detail {
+	color: blue;
+	cursor: pointer;
+}
+
+#admin_board .admin_board_inner .page_list_num {
+	width: 30%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#admin_board .admin_board_inner .page_list_num ul {
+	width: 100%;
+	margin: 0 auto;	
+}
+
+#admin_board .admin_board_inner .page_list_num ul li {
+	float: left;
+	margin-left: 20px;
+}
+
+#admin_board .admin_board_inner .page_list_num ul li a {
+	color: blue;
+	height: 34px;
+	line-height: 34px;
+}
